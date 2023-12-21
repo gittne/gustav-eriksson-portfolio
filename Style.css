@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    font-family: Montserrat, Arial;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.image-container {
+    display: flex; /* Use flexbox to arrange images in a row */
+    justify-content: center;
+}
+
+    .image-container img {
+        margin-right: 33px; /* Add some spacing between images */
+        width: 130px;
+    }
+
+.center-image {
+    display: block; /* Make the image a block element */
+    margin: 0 auto; /* Set left and right margins to 'auto' */
+}
+
+.selfie-container {
+    display: flex; /* Use flexbox to arrange images in a row */
+    justify-content: center;
+}
+
+    .selfie-container img {
+        max-width: 900px;
+        height: auto;
+    }
+
+.selfie1-scaled {
+    width: 400px;
+    height: auto;
+}
+
+.selfie2-scaled {
+    width: 608px;
+    height: auto;
+}
